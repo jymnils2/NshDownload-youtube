@@ -1,6 +1,6 @@
-# DownloadIt 📥
+# NshDownload 📥
 
-**DownloadIt** is a modern YouTube video downloader desktop application built with Python. This project was developed as a technical study to understand multi-threading, network stream handling, and media merging processes in a GUI environment.
+**NshDownload** is a modern YouTube video downloader desktop application built with Python. This project was developed as a technical study to understand multi-threading, network stream handling, and media merging processes in a GUI environment.
 
 ## ⚠️ Disclaimer (Educational Purposes Only)
 
@@ -39,8 +39,8 @@ sudo apt update && sudo apt install ffmpeg
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/hasancabuk/downloadit.git
-cd downloadit
+git clone https://github.com/hasancabuk/NshDownload.git
+cd NshDownload
 ```
 
 2. **Install dependencies:**

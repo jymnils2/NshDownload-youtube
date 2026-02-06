@@ -31,14 +31,14 @@ if not ffmpeg_exe:
     if not ffmpeg_exe or not os.path.exists(ffmpeg_exe):
         ffmpeg_exe = None 
 
-download_folder = os.path.join(os.path.expanduser("~"), "Downloads", "DownloadIt")
+download_folder = os.path.join(os.path.expanduser("~"), "Downloads", "NshDownload")
 os.makedirs(download_folder, exist_ok=True)
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
         self.is_running = True
         self.geometry("500x500")
-        self.title("DownloadIt")
+        self.title("NshDownload")
         customtkinter.set_appearance_mode("dark")
         customtkinter.set_default_color_theme("blue")
         self.resizable(0,0)
